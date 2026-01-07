@@ -15,16 +15,16 @@ from pybricks.media.ev3dev import SoundFile, ImageFile
 # dieses Programm ist die Maturaarbeit von: Modjtaba Taib
 # Schule: ISME St.Gallen
 # Betreuer: Herr André Nuber
-# Datum: 01.01.2026
+# Datum: 07.01.2026
 # Dieses Programm erfordert LEGO EV3 MicroPython v2.0 oder höher.
-# Es sind drei Sensoren im Einsatz: Infrarotsensor, Ultraschallsensor und ein Farbsensor.
+# Es sind vier Sensoren im Einsatz: zwei Infrarotsensor, ein Ultraschallsensor und ein Farbsensor.
 # Der Farbsensor und der Infrarotsensor sind auf der linken Seite des Roboters montiert.
 # Der Ultraschallsensor ist auf der Vorderseite des Roboters montiert.
 # Der Ultraschallsensor dient dazu, Hindernisse zu erkennen und ihnen auszuweichen.
-# Der Infrarotsensor dient dazu, eine Linie zu verfolgen.
-# Der Farbsensor dient dazu, beim Eintreffen einer Linkskurve die Linie zu erkennen und entsprechend zu reagieren.
-# Der Roboter fährt vorwärts, bis er ein Hindernis erkennt. Dann weicht dreht er nach rechts aus.
-# Wenn der Roboter auf eine Linkskurve trifft, erkennt der Farbsensor die Linie und der Roboter dreht nach links, um der Linie zu folgen.
+# Der Infrarotsensoren dienen dazu, eine Linie zu verfolgen.
+# Der Farbsensor dient dazu, beim Eintreffen einer Linkskurve die Markierung am Boden zu erkennen und entsprechend zu reagieren.
+# Der Roboter fährt vorwärts, bis er ein Hindernis erkennt. Dann biegt er nach rechts.
+# Wenn der Roboter auf eine Linkskurve trifft, erkennt der Farbsensor die Linie und der Roboter biegt nach links ab.
 # Somit kann der Roboter seinen Weg aus dem Labyrinth finden.
 
 """
